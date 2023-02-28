@@ -5,7 +5,17 @@
     box-sizing: border-box;
 }
 
-.debug * {
+
+:root {
+    --free-primary: #1abc9c;
+    --free-secondary: #2c3e50;
+    --free-tertiary: #3a556c;
+}
+
+
+
+
+.debug *{
     border: 1px dashed;
 }
 
@@ -16,30 +26,32 @@
 }
 
 .banner {
-    background-color: green;
+   
     padding:  2rem;
     margin: 1rem;
     text-align: center;
 }
 
 .debug #app_header {
-    height: 5rem;
-    background-color: yellow;
-  
+   background-color: #2c3e50;
+    
 }
 
-.debug .flex_container {
-    height: 800px;
-}
 
-.debug #sidebar {
-    background-color: violet;
-}
 
 .debug #app_main {
-    height: 100%;
-    background-color: blue;
+   height: 100%;
 }
+
+#jumbotron{
+    background-color: #1abc9c;
+}
+
+
+
+
+
+
 
 .debug #aside {
     background-color: aquamarine;
@@ -56,14 +68,6 @@
     width: 100%;
 }
 
-#sidebar {
-    width: 29%;
-    padding: 1rem;
-}
-
-#sidebar ul {
-    list-style: none;
-}
 
 #app_main {
     margin: 0 1rem;

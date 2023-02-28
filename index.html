@@ -31,31 +31,55 @@
   <body class="debug">
     <header id="app_header">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col d-flex align-items-center">
-            left
+        <nav class="navbar navbar-expand-lg  ">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-
-          <div class="col d-flex justify-content-end align-items-center">
-            right
-          </div>
-
-        </div>
+        </nav>
       </div>
+    </div>
 
     </header>
 
     <main id="app_main">
-      <section class="py-3" id="jumbotron">
-        <div class="container">
-          <div class="d-flex flex-column justify-content-center
-            align-items-center">
-            Jumbo
-          </div>
-
+      <section id="jumbotron">
+        <div class="p-0 mb-4 bg_free_primary rounded-0">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col d-flex flex-column justify-content-center align-items-center" id="jumbo">
+                        <img class="pb-3" width="160" src="./img/avatar.svg" alt="Freelancer avatar">
+                        <h1 class="display-5 fs-1 fw-bold text-center text-uppercase text-light">
+                            Start Bootstrap
+                        </h1>
+                        <div class="star_divider text-light pb-2">
+                            <span class="bg-light me-2 rounded align-middle"></span>
+                            <i class="fa fa-star"></i>
+                            <span class="bg-light ms-2 rounded align-middle"></span>
+                        </div>
+                        <p class="fs-6 text-center text-uppercase text-light">
+                            Graphic Artist - Web Designer - Illustrator
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </section>
+    </section>
 
       <section class="py-3" id="portfolio">
         <div class="container">
