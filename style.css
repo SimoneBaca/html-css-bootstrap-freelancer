@@ -13,31 +13,14 @@
 }
 
 
-
-
 .debug *{
     border: 1px dashed;
-}
-
-.flex_container {
-    display: flex;
-    margin: 1rem 0;
-    justify-content: space-between;
-}
-
-.banner {
-   
-    padding:  2rem;
-    margin: 1rem;
-    text-align: center;
 }
 
 .debug #app_header {
    background-color: #2c3e50;
     
 }
-
-
 
 .debug #app_main {
    height: 100%;
@@ -46,24 +29,6 @@
 #jumbotron{
     background-color: #1abc9c;
 }
-
-
-
-
-
-
-
-.debug #aside {
-    background-color: aquamarine;
-    
-}
-
-.debug #app_footer {
-    height: 5rem;
-    background-color: bisque;
-
-}
-
 #app_header {
     width: 100%;
 }
